@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Diferencias</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="diferencias.css" />
+</head>
+<body>
+    <h1>Medidas.</h1>
+    <h2>Relativas.</h2>
+    <p id="px"><strong>PX</strong> es una medida relativa respecto a la resolcuión de la pantalla.
+        Ejemplo: aquí se aplicará un margin-top de 25px y un font-size de 20px.</p>
+    <p id="em"><strong>EM</strong> es una medida relativa que se basa en la altura de la fuente,
+        <strong>NO</strong> hay que confundirla con la etiqueta <strong>&ltem&gt</strong> de HTML. Ejemplo: se aplicará un tamaño
+        de fuente de 32px tenemos que poner un margen de 0.5em ya que se interpreta como la mitad
+        del tamñano de la letra ya que se debe multiplicar por 0.5  su tamaño de letra (32px * 0.5em = 16px)</p>
+    <p id="ex"><strong>EX</strong> es una medida relativa que rara vez es utilizada ya que sirve para expresar tamaños
+        que deben estar relacionados con la altura X de una fuente. Esto se refiere a que la altura X
+        es aproximadamente a la altura de las letras minúsculas como a, c, m, o y por lo tanto pueden
+        variar mucho el tamaño en las letras minúsculas.
+        Ejemplo: si utilizamos el font-size de 40px equivale a 2ex.</p>
+    <p id="rem"><strong>REM</strong> (para root em) es una medida relativa que modifica el tamaño de la fuente
+        del elemento raíz del documento,  el rem es constante en todo el documento.
+        Por ejemplo, para dar a los elementos P y H1 el mismo margen izquierdo. Utilizaremos margen izquierdo: 1rem</p>
+    <h2>Absolutas.</h2>
+    <p id="in"><strong>PULGADAS</strong> es una medida absoluta 1 pulgada equivale a 96 px y a 2.54 cm.
+        Ejemplo: se aplicará un margin-left de 1 pulgada.</p>
+    <p id="cm"><strong>CM</strong> es una medida absoluta relacionada al <strong>centimetro</strong> lo cual equivale a 10 mm y 0.393701 in.
+        Ejemplo: aplicaré un margin-left de 3.5cm</p>
+    <p id="mm"><strong>MM</strong> es una medida absoluta relacionada a los <strong>milimetros</strong> lo cual equivale a 0.100000054 cm y a 0.0393701 in.
+        Ejemplo: pondré un margen-left de 10mm</p>
+    <p id="pc"><strong>PC</strong> es una medida absoluta que significa <strong>pica</strong> que equivale a 4.23 mm y a 12pts.
+        Ejemplo: aquí aplicaré un margin-left de 20pc</p>
+    <p id="pt"><strong>PT</strong> es una medida absoluta que significa <strong>puntos</strong> que equivale a 0.35mm o 1/72 in.
+        Ejemplo: aplicaré un padding de 30pt 30pt 30pt 30pt</p>
+    <h2>Porcentuales.</h2>
+    <p id="porcentaje"><strong>%</strong> se usa por defecto en los elementos HTML en donde de manera predeterminada cada elemento de bloque usa un ancho del 100%,
+        es por eso que cuando achicamos la ventana del navegador con una página que no tenga estilos, 
+        la página se adapta, ya que siempre usará el ancho total visible.
+        <div id="percentage">Ejemplo: aquí se usará un div donde puse un porcentaje del 70% para que este de lado derecho.</div></p>
+    <h2>Colores.</h2>
+    <p id="rgb">Son los valores de color compatibles con todos los navegadores y
+        la manipulación de dichos colores por medio de los 3 colores principales que son <strong>Red, Green y Blue</strong>
+        que se definen por intensidad de color. 
+        Ejemplo: en este parafo utilizaremos background-color de un rgb <strong>decimal</strong> de background-color: rgb(0, 0, 0),
+        y un color: rgb(255, 255, 255).</p>
+    <p id="rgb-h">Son los valores de color compatibles con todos los navegadores y
+        la manipulación de dichos colores por medio de los 3 colores principales que son <strong>Red, Green y Blue</strong>
+        que se definen por intensidad de color. 
+        Ejemplo: en este parafo utilizaremos background-color de un rgb <strong>hexa-decimal</strong> de background-color: #000,
+        y un color: #fff.</p>
+    <p id="rgb-p">Son los valores de color compatibles con todos los navegadores y
+        la manipulación de dichos colores por medio de los 3 colores principales que son <strong>Red, Green y Blue</strong>
+        que se definen por intensidad de color y por porcentaje. 
+        Ejemplo: en este parafo utilizaremos background-color de un rgb <strong>porcentual</strong> de background-color: rgb(0%, 0%, 0%),
+        y un color: rgb(100%, 100%, 100%).</p>
+    <p id="hsl"><strong>HSL</strong> es para la manipulación de colores que significa <strong>matiz, saturación y luminosidad</strong>
+        que siendo la <strong>matiz</strong> es de 0 a 360 donde 0 es rojo, 120 es verde y 240 es azul,
+        la <strong>saturación</strong> es por porcentaje y la <strong>luminosidad</strong> también se maneja por porcentaje.
+        Ejemplo: en este parafo utilizaremos background-color de un rgb <strong>hsl</strong> de background-color: hsl(37, 100%, 0%),
+        y un color: hsl(37, 0%, 100%).</p>
+    </p>
+    <h2>Transparencias.</h2>
+    <p id="rgba"><strong>RGBA</strong> sirve para la manipulación de colores como extensión de <strong>RGB</strong> agregando
+        <strong>alfa</strong> para definir transparencia u opacidad.
+        Ejemplo: en este parafo utilizaremos background-color de un rgb <strong>rgba</strong> de background-color:rgba(228, 190, 119, 0.712),
+        y un color: rgba(180, 71, 71, 0.788).</p>
+    <p id="hsla"><strong>HSLA</strong> al igual que <strong>RGBA</strong> es una extensión de <strong>HSL</strong>
+        añadiendo el valor <strong>alfa</strong> para definir transparencia u opacidad.
+        Ejemplo: en este parafo utilizaremos background-color de un hsl <strong>hsla</strong> de background-color:hsla(39, 69%, 66%, 0.712),
+        y un color: hsla(0, 43%, 49%, 0.788).</p>
+    <h2>Diferencia.</h2>
+    <p id="pym"><strong>PADDING</strong> se encarga de poner un relleno que se epecifica en las 4 posiciones
+        que son: <strong>izquierda, arriba, abajo y derecha</strong> y <strong>MARGIN</strong> se encarga de 
+        agregar un margen es decir el espacio libre que se encuentra alredor de los elementos.
+        <div id="padding">Ejemplo: pondremos un <strong>PADDING</strong> con el 3%</div>
+        <div id="margin">Ejemplo: pondremos un <strong>MARGIN</strong> con el 3%</div>
+    </p>
+</body>
+</html>

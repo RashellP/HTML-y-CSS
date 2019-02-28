@@ -1,0 +1,155 @@
+html{
+    background-image: url('large4.jpg');
+    background-attachment: fixed;
+    font-family: 'Century Gothic';
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    background-size: 100% 100%;
+}
+h1{
+    width: 14%;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(180, 136, 65, 0.335);
+    border-radius: 5px; 
+}
+h2{
+    width: 20%;
+    text-align: center;
+    color: rgb(255, 0, 98);
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 5px; 
+}
+#px{
+    margin: 25px;
+    font-size: 20px;
+    background-color: rgba(45, 138, 161, 0.609);
+    border-radius: 5px;
+}
+#em{
+    margin: 2em;
+    font-size: 1.5em;
+    background-color: rgba(189, 13, 13, 0.609);
+    border-radius: .5em;
+}
+#ex{
+    margin: 2ex;
+    font-size: 2ex;
+    background-color: rgba(189, 13, 57, 0.609);
+    border-radius: .5ex;
+}
+#rem{
+    margin: 2rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    background-color: rgba(66, 13, 189, 0.609);
+    border-radius: .5rem;
+}
+#in{
+    font-size: 20px;
+    background-color: rgba(13, 189, 72, 0.609);
+    border-radius: 5px;
+    margin-left: 3.5cm;
+}
+#cm{
+    font-size: 20px;
+    background-color: rgba(189, 122, 13, 0.609);
+    border-radius: 5px;
+    margin-left: 1in;
+}
+#mm{
+    font-size: 20px;
+    background-color: rgba(39, 13, 189, 0.609);
+    border-radius: 5px;
+    margin-left: 10mm;
+}
+#pc{
+    font-size: 20px;
+    background-color: rgba(189, 13, 145, 0.609);
+    border-radius: 5px;
+    margin-left: 20pc;
+}
+#pt{
+    font-size: 20px;
+    background-color: rgba(174, 13, 189, 0.609);
+    border-radius: 5px;
+    padding: 30pt 30pt 30pt 30pt;
+}
+#porcentaje{
+    margin: 25px;
+    font-size: 20px;
+    background-color: rgba(82, 42, 42, 0.609);
+    border-radius: 5px;
+}
+#percentage{
+    margin-left: 70%;
+    font-size: 20px;
+    background-color: rgba(223, 14, 14, 0.609);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+#rgb{
+    margin: 15px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    border-radius: 5px;
+}
+#rgb-h{
+    margin: 15px;
+    font-size: 20px;
+    color: #fff;
+    background-color:#000;
+    border-radius: 5px;
+}
+#rgb-p{
+    margin: 15px;
+    font-size: 20px;
+    color: rgb(100%, 100%, 100%);
+    background-color:rgb(0%, 0%, 0%);
+    border-radius: 5px;
+}
+#hsl{
+    margin: 15px;
+    font-size: 20px;
+    color: hsl(37, 0%, 100%);
+    background-color:hsl(37, 100%, 0%);
+    border-radius: 5px;
+}
+#rgba{
+    margin: 15px;
+    font-size: 20px;
+    color: rgba(180, 71, 71, 0.788);
+    background-color:rgba(228, 190, 119, 0.712);
+    border-radius: 5px;
+}
+#hsla{
+    margin: 15px;
+    font-size: 20px;
+    color: hsla(0, 43%, 49%, 0.788);
+    background-color:hsla(39, 69%, 66%, 0.712);
+    border-radius: 5px;
+}
+#pym{
+    margin: 15px;
+    font-size: 20px;
+    color: hsla(0, 0%, 0%, 0.555);
+    background-color:hsla(157, 81%, 55%, 0.555);
+    border-radius: 5px;
+}
+#padding
+{
+    color: hsla(0, 0%, 0%, 0.555);
+    background-color:hsla(157, 81%, 55%, 0.555);
+    padding: 3% 3% 3% 3%;
+    border-radius: 5px;
+}
+#margin{
+    color: hsla(0, 0%, 0%, 0.555);
+    background-color:hsla(157, 81%, 55%, 0.555);
+    margin: 3%;
+    border-radius: 5px;
+}
